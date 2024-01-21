@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      background-image: url(images/flat-lay-workplace-arrangement-purple-background-with-copy-space.jpg);
+    }
+
+    header {
+      background-color: #000000;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    .pricing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    .pricing-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 0 20px;
+      text-align: center;
+    }
+
+    .price {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .features {
+      list-style: none;
+      padding: 0;
+    }
+
+    .features li {
+      margin: 10px 0;
+    }
+
+    .cta-button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pricing Page</h1>
+  </header>
+
+  <div class="pricing-container">
+    <div class="pricing-card">
+      <h2>Basic Plan</h2>
+      <p class="price">199/month</p>
+      <ul class="features">
+        <li>Live Lecture</li>
+        <li>No guidance</li>
+      </ul>
+      <a href="#" class="cta-button">Get Started</a>
+    </div>
+
+    <div class="pricing-card">
+      <h2>Pro Plan</h2>
+      <p class="price">299/month</p>
+      <ul class="features">
+        <li>Live Lecture</li>
+        <li>No guidance</li>
+        <li>offline Lecture</li>
+      </ul>
+      <a href="#" class="cta-button">Get Started</a>
+    </div>
+
+    <div class="pricing-card">
+      <h2>Premium Plan</h2>
+      <p class="price">499/month</p>
+      <ul class="features">
+        <li>Live Lecture</li>
+        <li>offline Lecture</li>
+        <li>guidance Provided</li>
+      </ul>
+      <a href="#" class="cta-button">Get Started</a>
+    </div>
+  </div>
+
+</body>
+</html>
